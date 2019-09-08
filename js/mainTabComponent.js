@@ -96,6 +96,11 @@ Vue.component('mainTab',{
             ],
         }
     },
+    filter: {
+        formatData: function (data) {
+            return data.toFixed(2);
+        }
+    },
     template: `<div class="main-table-container">
                    <div class="flex-container">
                         <div v-for="(period, index) of periods">
@@ -133,7 +138,7 @@ Vue.component('mainTab',{
                         <div v-for="(orgData, index) of org.data"
                             :key="index"
                             class="flex-container">                                                   
-                            <div class="data-row-data">{{orgData.debtStart}}</div>
+                            <div class="data-row-data">{{orgData.debtStart | formatData}}</div>
                             <div class="data-row-data">{{orgData.plan}}</div>
                             <div class="data-row-data">{{orgData.payment}}</div>
                             <div class="data-row-data">{{orgData.zachet}}</div>
@@ -143,41 +148,5 @@ Vue.component('mainTab',{
                             <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet + orgData.invoice}}</div>
                         </div>
                     </div>
- 
-<!--                    <div class="main-tab">-->
-<!--                            <table border="1">-->
-<!--                                <tr class="title-row">-->
-<!--                                    <th rowspan="2">Статья/Контрагент</th>-->
-<!--                                    <span></span>-->
-<!--                                    <th v-for="(period, index) of periods"-->
-<!--                                        :key="index"-->
-<!--                                        colspan="8">-->
-<!--                                        {{period}}-->
-<!--                                    </th>-->
-<!--                                </tr>-->
-<!--                                <tr v-for="n of periods.length"-->
-<!--                                        class="title-row">-->
-<!--                                    <th>Сальдо н.п.</th>-->
-<!--                                    <th>План</th>-->
-<!--                                    <th>Оплачено</th>-->
-<!--                                    <th>Зачтено</th>-->
-<!--                                    <th>Откл. от плана</th>-->
-<!--                                    <th>Задолженность</th>-->
-<!--                                    <th>Начислено</th>-->
-<!--                                    <th>Сальдо к.п.</th>-->
-<!--                                </tr>-->
-<!--                                <tr class="data-row">-->
-<!--                                    <td class="td-first">{{org.name}}</td>-->
-<!--                                    <td class="td-data">{{org.debtStart}}</td>-->
-<!--                                    <td class="td-data">{{org.plan}}</td>-->
-<!--                                    <td class="td-data">{{org.payment}}</td>-->
-<!--                                    <td class="td-data">{{org.zachet}}</td>-->
-<!--                                    <td class="td-data">{{org.plan - org.payment - org.zachet}}</td>-->
-<!--                                    <td class="td-data">{{org.debtStart - org.payment - org.zachet}}</td>-->
-<!--                                    <td class="td-data">{{org.invoice}}</td>-->
-<!--                                    <td class="td-data">{{org.debtStart - org.payment - org.zachet + org.invoice}}</td>-->
-<!--                                </tr>-->
-<!--                            </table>-->
-<!--                        </div>-->
-                    </div>`
+                </div>`
 })
