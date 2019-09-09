@@ -9,7 +9,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -17,7 +17,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -25,7 +25,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -39,7 +39,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -47,7 +47,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -55,7 +55,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -69,7 +69,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -77,7 +77,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -85,7 +85,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -99,7 +99,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -107,7 +107,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -115,7 +115,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -129,7 +129,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -137,7 +137,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -145,7 +145,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -159,7 +159,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -167,7 +167,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -175,7 +175,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -189,7 +189,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -197,7 +197,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -205,7 +205,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -219,7 +219,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -227,7 +227,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -235,7 +235,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -249,7 +249,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -257,7 +257,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -265,7 +265,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -279,7 +279,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -287,7 +287,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -295,7 +295,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -309,7 +309,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -317,7 +317,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -325,7 +325,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -339,7 +339,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -347,7 +347,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -355,7 +355,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -369,7 +369,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -377,7 +377,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -385,7 +385,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -399,7 +399,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -407,7 +407,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -415,7 +415,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -429,7 +429,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -437,7 +437,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -445,7 +445,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -459,7 +459,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -467,7 +467,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -475,7 +475,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -489,7 +489,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -497,7 +497,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -505,7 +505,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -519,7 +519,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -527,7 +527,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -535,7 +535,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -549,7 +549,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -557,7 +557,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -565,7 +565,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -579,7 +579,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -587,7 +587,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -595,7 +595,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -609,7 +609,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -617,7 +617,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -625,7 +625,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -639,7 +639,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -647,7 +647,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -655,7 +655,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -669,7 +669,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -677,7 +677,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -685,7 +685,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -699,7 +699,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -707,7 +707,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -715,7 +715,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -729,7 +729,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -737,7 +737,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -745,7 +745,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -759,7 +759,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -767,7 +767,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -775,7 +775,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -789,7 +789,7 @@ Vue.component('mainTab',{
                     data: [
                         {
                             period: "2019.01",
-                            debtStart: 2000.00,
+                            saldoStart: 2000.00,
                             plan: 1000.00,
                             payment: 500.00,
                             zachet: 250.00,
@@ -797,7 +797,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.02",
-                            debtStart: 2300.00,
+                            saldoStart: 2300.00,
                             plan: 2000.00,
                             payment: 100.00,
                             zachet: 0.00,
@@ -805,7 +805,7 @@ Vue.component('mainTab',{
                         },
                         {
                             period: "2019.03",
-                            debtStart: 4000.00,
+                            saldoStart: 4000.00,
                             plan: 1500.00,
                             payment: 700.00,
                             zachet: 0.00,
@@ -814,11 +814,36 @@ Vue.component('mainTab',{
                     ]
                 }
             ],
+            tableVals: [],
         }
     },
     computed: {
-        tableDataTotalSums: function () {
-            return [planTotal, paymentTotal, zachetTotal, deviationTotal, debtTotal, invoiceDebt, debtEnd];
+        tableValsPrep: function () {
+            let deviation = 0;
+            let debt = 0;
+            let saldoStart = 0;
+            let saldoEnd = 0;
+            for (let i=0; i<this.tableData.length; i++) {
+                this.tableVals.push([this.tableData[i].name]);
+                for (let j=0; j<this.tableData[i].data.length; j++) {
+                    if (j === 0) {
+                        saldoStart = this.tableData[i].data[j].saldoStart;
+                        this.tableVals[i].push(saldoStart);
+                    } else {
+                        saldoStart = this.tableVals[i][this.tableVals[i].length-1];
+                    };
+                    this.tableVals[i].push(this.tableData[i].data[j].plan);
+                    this.tableVals[i].push(this.tableData[i].data[j].payment);
+                    this.tableVals[i].push(this.tableData[i].data[j].zachet);
+                    deviation = this.tableData[i].data[j].plan - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
+                    this.tableVals[i].push(deviation);
+                    debt = saldoStart - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
+                    this.tableVals[i].push(debt);
+                    this.tableVals[i].push(this.tableData[i].data[j].invoice);
+                    saldoEnd = debt + this.tableData[i].data[j].invoice;
+                    this.tableVals[i].push(saldoEnd);
+                }
+            }
         }
     },
     filters: {
@@ -833,26 +858,26 @@ Vue.component('mainTab',{
                                  class="grid-title-container-1">
                                 <div class="title-row-name">Статья/Контрагент</div>
                                 <div class="title-row-period">{{period}}</div>
-                                <div class="title-row-data">Сальдо н.п.</div>
+                                <div class="title-row-saldo">Сальдо н.п.</div>
                                 <div class="title-row-data">План</div>
                                 <div class="title-row-data">Оплачено</div>
                                 <div class="title-row-data">Зачтено</div>
                                 <div class="title-row-data">Отклонение<br>от плана</div>
                                 <div class="title-row-data">Задолжен-<br>ность</div>
                                 <div class="title-row-data">Начислено</div>
-                                <div class="title-row-data">Сальдо к.п.</div>
+<!--                                <div class="title-row-data">Сальдо к.п.</div>-->
                             </div>
                             <div v-else class="grid-title-container-2">
                                 <div class="title-row-name-empty"></div>
                                 <div class="title-row-period">{{period}}</div>
-                                <div class="title-row-data">Сальдо н.п.</div>
+                                <div class="title-row-saldo">Сальдо н.п.</div>
                                 <div class="title-row-data">План</div>
                                 <div class="title-row-data">Оплачено</div>
                                 <div class="title-row-data">Зачтено</div>
                                 <div class="title-row-data">Отклонение<br>от плана</div>
                                 <div class="title-row-data">Задолжен-<br>ность</div>
                                 <div class="title-row-data">Начислено</div>
-                                <div class="title-row-data">Сальдо к.п.</div>
+<!--                                <div class="title-row-data">Сальдо к.п.</div>-->
                             </div>
                         </div>
                    </div>
@@ -863,14 +888,14 @@ Vue.component('mainTab',{
                         <div v-for="(orgData, index) of org.data"
                             :key="index"
                             class="flex-container">                                                   
-                            <div class="data-row-data">{{orgData.debtStart | formatData}}</div>
+                            <div class="data-row-data">{{orgData.saldoStart | formatData}}</div>
                             <div class="data-row-data">{{orgData.plan | formatData}}</div>
                             <div class="data-row-data">{{orgData.payment | formatData}}</div>
                             <div class="data-row-data">{{orgData.zachet | formatData}}</div>
                             <div class="data-row-data">{{orgData.plan - orgData.payment - orgData.zachet | formatData}}</div>
-                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet | formatData}}</div>
+                            <div class="data-row-data">{{orgData.saldoStart - orgData.payment - orgData.zachet | formatData}}</div>
                             <div class="data-row-data">{{orgData.invoice | formatData}}</div>
-                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet + orgData.invoice | formatData}}</div>
+<!--                            <div class="data-row-data">{{orgData.saldoStart - orgData.payment - orgData.zachet + orgData.invoice | formatData}}</div>-->
                         </div>
                     </div>
                 </div>`
