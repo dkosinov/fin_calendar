@@ -92,11 +92,736 @@ Vue.component('mainTab',{
                             invoice: 3000.00,
                         },
                     ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Ромашка"',
+                    id: '000111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Звёздочка"',
+                    id: '000131',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
+                },
+                {
+                    name: 'ООО "Канделябр"',
+                    id: '204111',
+                    data: [
+                        {
+                            period: "2019.01",
+                            debtStart: 2000.00,
+                            plan: 1000.00,
+                            payment: 500.00,
+                            zachet: 250.00,
+                            invoice: 1000.00,
+                        },
+                        {
+                            period: "2019.02",
+                            debtStart: 2300.00,
+                            plan: 2000.00,
+                            payment: 100.00,
+                            zachet: 0.00,
+                            invoice: 1500.00,
+                        },
+                        {
+                            period: "2019.03",
+                            debtStart: 4000.00,
+                            plan: 1500.00,
+                            payment: 700.00,
+                            zachet: 0.00,
+                            invoice: 3000.00,
+                        },
+                    ]
                 }
             ],
         }
     },
-    filter: {
+    computed: {
+        tableDataTotalSums: function () {
+            return [planTotal, paymentTotal, zachetTotal, deviationTotal, debtTotal, invoiceDebt, debtEnd];
+        }
+    },
+    filters: {
         formatData: function (data) {
             return data.toFixed(2);
         }
@@ -106,7 +831,7 @@ Vue.component('mainTab',{
                         <div v-for="(period, index) of periods">
                             <div v-if="index == 0"
                                  class="grid-title-container-1">
-                                 <div class="title-row-name">Статья/Контрагент</div>
+                                <div class="title-row-name">Статья/Контрагент</div>
                                 <div class="title-row-period">{{period}}</div>
                                 <div class="title-row-data">Сальдо н.п.</div>
                                 <div class="title-row-data">План</div>
@@ -118,7 +843,7 @@ Vue.component('mainTab',{
                                 <div class="title-row-data">Сальдо к.п.</div>
                             </div>
                             <div v-else class="grid-title-container-2">
-                                 <div class="title-row-name-empty"></div>
+                                <div class="title-row-name-empty"></div>
                                 <div class="title-row-period">{{period}}</div>
                                 <div class="title-row-data">Сальдо н.п.</div>
                                 <div class="title-row-data">План</div>
@@ -139,13 +864,13 @@ Vue.component('mainTab',{
                             :key="index"
                             class="flex-container">                                                   
                             <div class="data-row-data">{{orgData.debtStart | formatData}}</div>
-                            <div class="data-row-data">{{orgData.plan}}</div>
-                            <div class="data-row-data">{{orgData.payment}}</div>
-                            <div class="data-row-data">{{orgData.zachet}}</div>
-                            <div class="data-row-data">{{orgData.plan - orgData.payment - orgData.zachet}}</div>
-                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet}}</div>
-                            <div class="data-row-data">{{orgData.invoice}}</div>
-                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet + orgData.invoice}}</div>
+                            <div class="data-row-data">{{orgData.plan | formatData}}</div>
+                            <div class="data-row-data">{{orgData.payment | formatData}}</div>
+                            <div class="data-row-data">{{orgData.zachet | formatData}}</div>
+                            <div class="data-row-data">{{orgData.plan - orgData.payment - orgData.zachet | formatData}}</div>
+                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet | formatData}}</div>
+                            <div class="data-row-data">{{orgData.invoice | formatData}}</div>
+                            <div class="data-row-data">{{orgData.debtStart - orgData.payment - orgData.zachet + orgData.invoice | formatData}}</div>
                         </div>
                     </div>
                 </div>`
