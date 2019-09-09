@@ -850,50 +850,22 @@ Vue.component('mainTab',{
         }
     },
     template: `<div class="main-table-container">
-                   <div class="flex-container">
-                        <div v-for="(period, index) of periods">
-                            <div v-if="index === 0"
-                                 class="grid-title-container-1">
-                                <div class="title-row-name">Статья/Контрагент</div>
+                    <div class="flex-container">
+                       <span><div class="title-row-name">Статья/Контрагент</div></span>
+                       <div v-for="(period, index) of periods">
+                            <div class="grid-title-container">
+                               <div class="title-row-saldo">Сальдо н.п.</div>
                                 <div class="title-row-period">{{period}}</div>
-                                <div class="title-row-saldo">Сальдо н.п.</div>
                                 <div class="title-row-data">План</div>
                                 <div class="title-row-data">Оплачено</div>
                                 <div class="title-row-data">Зачтено</div>
                                 <div class="title-row-data">Отклонение<br>от плана</div>
                                 <div class="title-row-data">Задолжен-<br>ность</div>
                                 <div class="title-row-data">Начислено</div>
-<!--                                <div class="title-row-data">Сальдо к.п.</div>-->
                             </div>
-                            <div v-else-if="index === (periods.length-1)"
-                                class="grid-title-container-3">
-                                <div class="title-row-name-empty"></div>
-                                <div class="title-row-period">{{period}}</div>
-                                <div class="title-row-saldo-end">Сальдо к.п.</div>                                                            
-                                <div class="title-row-saldo">Сальдо н.п.</div>
-                                <div class="title-row-data">План</div>
-                                <div class="title-row-data">Оплачено</div>
-                                <div class="title-row-data">Зачтено</div>
-                                <div class="title-row-data">Отклонение<br>от плана</div>
-                                <div class="title-row-data">Задолжен-<br>ность</div>
-                                <div class="title-row-data">Начислено</div>
-
-                            </div>                            
-                            <div v-else class="grid-title-container-2">
-                                <div class="title-row-name-empty"></div>
-                                <div class="title-row-period">{{period}}</div>
-                                <div class="title-row-saldo">Сальдо н.п.</div>
-                                <div class="title-row-data">План</div>
-                                <div class="title-row-data">Оплачено</div>
-                                <div class="title-row-data">Зачтено</div>
-                                <div class="title-row-data">Отклонение<br>от плана</div>
-                                <div class="title-row-data">Задолжен-<br>ность</div>
-                                <div class="title-row-data">Начислено</div>
-<!--                                <div class="title-row-data">Сальдо к.п.</div>-->
-                            </div>
-                        </div>
-                        
-                   </div>
+                       </div>
+                       <span><div class="title-row-saldo-end">Сальдо к.п.</div></span>
+                    </div>
                     <div v-for="(org, index) of tableVals"
                         :key="index"
                         class="flex-container">
