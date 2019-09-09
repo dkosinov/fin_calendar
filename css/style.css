@@ -1,0 +1,27 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.title-row {
+  background-color: #fff8ad; }
+
+th {
+  padding: 5px;
+  border: black solid 1px; }
+
+td {
+  padding: 5px;
+  border: black solid 1px; }
+
+.td-first {
+  background-color: aquamarine;
+  width: 200px; }
+
+.td-data {
+  width: 100px; }
+
+.main-tab-container {
+  display: flex;
+  flex-direction: row; }
+
+/*# sourceMappingURL=style.css.map */
