@@ -817,44 +817,42 @@ Vue.component('mainTab',{
             tableVals: [],
         }
     },
-    computed: {
-        tableValsPrep: function () {
-            let deviation = 0;
-            let debt = 0;
-            let saldoStart = 0;
-            let saldoEnd = 0;
-            for (let i=0; i<this.tableData.length; i++) {
-                this.tableVals.push([this.tableData[i].name]);
-                for (let j=0; j<this.tableData[i].data.length; j++) {
-                    if (j === 0) {
-                        saldoStart = this.tableData[i].data[j].saldoStart;
-                        this.tableVals[i].push(saldoStart);
-                    } else {
-                        saldoStart = this.tableVals[i][this.tableVals[i].length-1];
-                    };
-                    this.tableVals[i].push(this.tableData[i].data[j].plan);
-                    this.tableVals[i].push(this.tableData[i].data[j].payment);
-                    this.tableVals[i].push(this.tableData[i].data[j].zachet);
-                    deviation = this.tableData[i].data[j].plan - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
-                    this.tableVals[i].push(deviation);
-                    debt = saldoStart - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
-                    this.tableVals[i].push(debt);
-                    this.tableVals[i].push(this.tableData[i].data[j].invoice);
-                    saldoEnd = debt + this.tableData[i].data[j].invoice;
-                    this.tableVals[i].push(saldoEnd);
-                }
+    created: function () {
+        let deviation = 0;
+        let debt = 0;
+        let saldoStart = 0;
+        let saldoEnd = 0;
+        for (let i=0; i<this.tableData.length; i++) {
+            this.tableVals.push([this.tableData[i].name]);
+            for (let j=0; j<this.tableData[i].data.length; j++) {
+                if (j === 0) {
+                    saldoStart = this.tableData[i].data[j].saldoStart;
+                    this.tableVals[i].push(saldoStart);
+                } else {
+                    saldoStart = this.tableVals[i][this.tableVals[i].length-1];
+                };
+                this.tableVals[i].push(this.tableData[i].data[j].plan);
+                this.tableVals[i].push(this.tableData[i].data[j].payment);
+                this.tableVals[i].push(this.tableData[i].data[j].zachet);
+                deviation = this.tableData[i].data[j].plan - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
+                this.tableVals[i].push(deviation);
+                debt = saldoStart - this.tableData[i].data[j].payment - this.tableData[i].data[j].zachet;
+                this.tableVals[i].push(debt);
+                this.tableVals[i].push(this.tableData[i].data[j].invoice);
+                saldoEnd = debt + this.tableData[i].data[j].invoice;
+                this.tableVals[i].push(saldoEnd);
             }
         }
     },
     filters: {
-        formatData: function (data) {
-            return data.toFixed(2);
+        getFinData: function (x) {
+            return x.toFixed(2);
         }
     },
     template: `<div class="main-table-container">
                    <div class="flex-container">
                         <div v-for="(period, index) of periods">
-                            <div v-if="index == 0"
+                            <div v-if="index === 0"
                                  class="grid-title-container-1">
                                 <div class="title-row-name">Статья/Контрагент</div>
                                 <div class="title-row-period">{{period}}</div>
@@ -867,6 +865,20 @@ Vue.component('mainTab',{
                                 <div class="title-row-data">Начислено</div>
 <!--                                <div class="title-row-data">Сальдо к.п.</div>-->
                             </div>
+                            <div v-else-if="index === (periods.length-1)"
+                                class="grid-title-container-3">
+                                <div class="title-row-name-empty"></div>
+                                <div class="title-row-period">{{period}}</div>
+                                <div class="title-row-saldo-end">Сальдо к.п.</div>                                                            
+                                <div class="title-row-saldo">Сальдо н.п.</div>
+                                <div class="title-row-data">План</div>
+                                <div class="title-row-data">Оплачено</div>
+                                <div class="title-row-data">Зачтено</div>
+                                <div class="title-row-data">Отклонение<br>от плана</div>
+                                <div class="title-row-data">Задолжен-<br>ность</div>
+                                <div class="title-row-data">Начислено</div>
+
+                            </div>                            
                             <div v-else class="grid-title-container-2">
                                 <div class="title-row-name-empty"></div>
                                 <div class="title-row-period">{{period}}</div>
@@ -880,22 +892,16 @@ Vue.component('mainTab',{
 <!--                                <div class="title-row-data">Сальдо к.п.</div>-->
                             </div>
                         </div>
+                        
                    </div>
-                    <div v-for="(org, index) of tableData"
+                    <div v-for="(org, index) of tableVals"
                         :key="index"
                         class="flex-container">
-                        <span><div class="data-row-name">{{org.name}}</div></span>
-                        <div v-for="(orgData, index) of org.data"
+                        <div v-for="(orgData, index) of org"
                             :key="index"
-                            class="flex-container">                                                   
-                            <div class="data-row-data">{{orgData.saldoStart | formatData}}</div>
-                            <div class="data-row-data">{{orgData.plan | formatData}}</div>
-                            <div class="data-row-data">{{orgData.payment | formatData}}</div>
-                            <div class="data-row-data">{{orgData.zachet | formatData}}</div>
-                            <div class="data-row-data">{{orgData.plan - orgData.payment - orgData.zachet | formatData}}</div>
-                            <div class="data-row-data">{{orgData.saldoStart - orgData.payment - orgData.zachet | formatData}}</div>
-                            <div class="data-row-data">{{orgData.invoice | formatData}}</div>
-<!--                            <div class="data-row-data">{{orgData.saldoStart - orgData.payment - orgData.zachet + orgData.invoice | formatData}}</div>-->
+                            class="">                                                   
+                            <div v-if="index === 0" class="data-row-name">{{orgData}}</div>
+                            <div v-else class="data-row-data">{{orgData | getFinData}}</div>
                         </div>
                     </div>
                 </div>`
