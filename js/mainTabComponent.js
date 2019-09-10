@@ -145,6 +145,7 @@ Vue.component('mainTab',{
                 saldoEnd = debt + this.tableData[i].data[j].invoice;
                 this.tableVals[i].push(saldoEnd);
             }
+            //соберём итоговый столбец
             this.tableVals[i].push(saldoStartTotalSum);
             this.tableVals[i].push(planTotalSum);
             this.tableVals[i].push(paymentTotalSum);
@@ -154,7 +155,7 @@ Vue.component('mainTab',{
             this.tableVals[i].push(invoiceTotalSum);
             this.tableVals[i].push(saldoEnd);
         }
-        //Собирём итоговую строку
+        //Соберём итоговую строку
         let arrTotal = ['Итого'];
         for (let j=1; j < this.tableVals[0].length; j++) {
             totalSum = 0;
